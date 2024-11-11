@@ -1,0 +1,76 @@
+const POKENEAS = [
+    {
+        id: 1,
+        name: 'El Brayan',
+        height: 1.78,
+        hability: 'Desvalije',
+        image: 'https://picsum.photos/300/380',
+        phrase: 'La plata o la vida',
+    },
+    {
+        id: 2,
+        name: 'La Jessi',
+        height: 1.65,
+        hability: 'Chismeo Intensivo',
+        image: 'https://picsum.photos/300/380',
+        phrase: 'Eso fue lo que me dijeron... yo no invento',
+    },
+    {
+        id: 3,
+        name: 'El Yeferson',
+        height: 1.80,
+        hability: 'Sapeo Avanzado',
+        image: 'https://picsum.photos/300/380',
+        phrase: '¿Qué hay pa’ hacer o pa’ caer?',
+    },
+    {
+        id: 4,
+        name: 'La Yuli',
+        height: 1.70,
+        hability: 'Encanto Callejero',
+        image: 'https://picsum.photos/300/380',
+        phrase: '¿Será que caes o te ayudo?',
+    },
+    {
+        id: 5,
+        name: 'El Jhon Jairo',
+        height: 1.85,
+        hability: 'Fleteo Rápido',
+        image: 'https://picsum.photos/300/380',
+        phrase: '¿Viste ese billete? ¡Es mío ya!',
+    },
+    {
+        id: 6,
+        name: 'La Leidy',
+        height: 1.72,
+        hability: 'Manipulación Coqueta',
+        image: 'https://picsum.photos/300/380',
+        phrase: '¿Y tú, cuánto me quieres dar?',
+    },
+    {
+        id: 7,
+        name: 'El Pipe',
+        height: 1.75,
+        hability: 'Cobro Extorsivo',
+        image: 'https://picsum.photos/300/380',
+        phrase: 'Aquí nadie respira gratis, compa',
+    },
+    {
+        id: 8,
+        name: 'La Katherin',
+        height: 1.67,
+        hability: 'Regateo de Feria',
+        image: 'https://picsum.photos/300/380',
+        phrase: 'Pero rebajame, que la cosa está dura',
+    },
+    {
+        id: 9,
+        name: 'El Lucho',
+        height: 1.80,
+        hability: 'Cadena de Favores Oscura',
+        image: 'https://picsum.photos/300/380',
+        phrase: 'Hoy por ti, mañana por mí... o sino, ya sabes',
+    }
+];
+
+module.exports = { POKENEAS };
