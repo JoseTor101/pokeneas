@@ -11,3 +11,5 @@ To run the project, navigate to the frontend directory and execute the following
 cd frontend
 npm run start:all
 ```
+
+The frontend runs on `http://localhost:5173` and the backend runs on `http://localhost:3000`.
