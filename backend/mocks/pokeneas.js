@@ -4,7 +4,7 @@ const POKENEAS = [
         name: 'El Brayan',
         height: 1.78,
         hability: 'Desvalije',
-        image: 'https://picsum.photos/300/380',
+        image: 'https://storage.googleapis.com/taller2-top-toftware-jat-pmq/images/brayan.jpg',
         phrase: 'La plata o la vida',
     },
     {
@@ -12,7 +12,7 @@ const POKENEAS = [
         name: 'La Jessi',
         height: 1.65,
         hability: 'Chismeo Intensivo',
-        image: 'https://picsum.photos/300/380',
+        image: 'https://storage.googleapis.com/taller2-top-toftware-jat-pmq/images/jessi.jpg',
         phrase: 'Eso fue lo que me dijeron... yo no invento',
     },
     {
@@ -20,7 +20,7 @@ const POKENEAS = [
         name: 'El Yeferson',
         height: 1.80,
         hability: 'Sapeo Avanzado',
-        image: 'https://picsum.photos/300/380',
+        image: 'https://storage.googleapis.com/taller2-top-toftware-jat-pmq/images/yeferson.jpg',
         phrase: '¿Qué hay pa’ hacer o pa’ caer?',
     },
     {
@@ -28,7 +28,7 @@ const POKENEAS = [
         name: 'La Yuli',
         height: 1.70,
         hability: 'Encanto Callejero',
-        image: 'https://picsum.photos/300/380',
+        image: 'https://storage.googleapis.com/taller2-top-toftware-jat-pmq/images/yuli.jpeg',
         phrase: '¿Será que caes o te ayudo?',
     },
     {
@@ -36,7 +36,7 @@ const POKENEAS = [
         name: 'El Jhon Jairo',
         height: 1.85,
         hability: 'Fleteo Rápido',
-        image: 'https://picsum.photos/300/380',
+        image: 'https://storage.googleapis.com/taller2-top-toftware-jat-pmq/images/jairo.jfif',
         phrase: '¿Viste ese billete? ¡Es mío ya!',
     },
     {
@@ -44,7 +44,7 @@ const POKENEAS = [
         name: 'La Leidy',
         height: 1.72,
         hability: 'Manipulación Coqueta',
-        image: 'https://picsum.photos/300/380',
+        image: 'https://storage.googleapis.com/taller2-top-toftware-jat-pmq/images/leidy.jpg',
         phrase: '¿Y tú, cuánto me quieres dar?',
     },
     {
@@ -52,7 +52,7 @@ const POKENEAS = [
         name: 'El Pipe',
         height: 1.75,
         hability: 'Cobro Extorsivo',
-        image: 'https://picsum.photos/300/380',
+        image: 'https://storage.googleapis.com/taller2-top-toftware-jat-pmq/images/pipe.jpg',
         phrase: 'Aquí nadie respira gratis, compa',
     },
     {
@@ -60,7 +60,7 @@ const POKENEAS = [
         name: 'La Katherin',
         height: 1.67,
         hability: 'Regateo de Feria',
-        image: 'https://picsum.photos/300/380',
+        image: 'https://storage.googleapis.com/taller2-top-toftware-jat-pmq/images/kathe.jpg',
         phrase: 'Pero rebajame, que la cosa está dura',
     },
     {
@@ -68,7 +68,7 @@ const POKENEAS = [
         name: 'El Lucho',
         height: 1.80,
         hability: 'Cadena de Favores Oscura',
-        image: 'https://picsum.photos/300/380',
+        image: 'https://storage.googleapis.com/taller2-top-toftware-jat-pmq/images/lucho.jpg',
         phrase: 'Hoy por ti, mañana por mí... o sino, ya sabes',
     }
 ];
