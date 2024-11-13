@@ -1,4 +1,4 @@
-import { fetchFullPokenea, fetchRawPokenea } from "../apis/fetchPokeneas";
+import { fetchFullPokenea, fetchRawPokenea } from "../services/fetchPokeneas";
 
 export const getFullPokenea = async () => {
     const container = document.getElementById('pokenea-info');

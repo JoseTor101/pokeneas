@@ -1,7 +1,7 @@
-import { fetchFullPokenea, fetchRawPokenea } from "./src/apis/fetchPokeneas";
-import { getFullPokenea, getRawPokenea, getPhilosophicalPokenea } from "./src/js/pokeneas";
+import { fetchFullPokenea, fetchRawPokenea } from "./src/services/fetchPokeneas";
+import { getFullPokenea, getRawPokenea, getPhilosophicalPokenea } from "./src/js/renderRoutes";
 
-// Función para cargar contenido HTML
+
 const loadPageContent = async (url) => {
     try {
         const response = await fetch(url);
@@ -17,11 +17,9 @@ const loadPageContent = async (url) => {
     }
 };
 
-// Definir las funciones de cada vista
 const getFullPokeneaView = async () => {
     await loadPageContent('/src/pages/full.html');
     
-    // Ahora el botón está disponible, entonces podemos añadir el listener
     const button = document.getElementById('get-full-pokenea-btn');
     if (button) {
         getFullPokenea();
@@ -55,10 +53,8 @@ const getPhilosophicalPokeneaView = async () => {
     }
 };
 
-// Configuración de rutas usando page.js
 page('/', getFullPokeneaView);
 page('/raw', getRawPokeneaView);
 page('/philosophical', getPhilosophicalPokeneaView);
 
-// Inicia el router
 page();

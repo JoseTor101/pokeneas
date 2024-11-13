@@ -1,34 +1,20 @@
-const { POKENEAS } = require('../mocks/pokeneas');
 const express = require('express');
 const router = express.Router();
-const os = require("os");
 
-let pokeneas_size = POKENEAS.length;
+const { getFullPokenea } = require('../controllers/full');
+const { getRawPokenea } = require('../controllers/raw');
+const { getAllPokenea } = require('../controllers/all');
 
 router.get('/full', (req, res) => {
-    let data  = POKENEAS[Math.floor(Math.random() * pokeneas_size)];
-    data.container = os.hostname();
-    res.json( data );
+    res.json(getFullPokenea());
 });
-
-
 
 router.get('/raw', (req, res) => {
-    let data = {}; 
-
-    let randomPokenea = POKENEAS[Math.floor(Math.random() * pokeneas_size)];
-    let { image, phrase, ...pokeneaWithoutImage } = randomPokenea;
-
-    data.pokenea = pokeneaWithoutImage;
-    data.container = os.hostname();
-
-    res.json(data);
+    res.json(getRawPokenea());
 });
 
-
-
 router.get('/all', (req, res) => {
-    res.json(POKENEAS);
+    res.json(getAllPokenea());
 });
 
 
