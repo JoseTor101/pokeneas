@@ -1,5 +1,3 @@
-# Dockerfile to run frontend and backend concurrently
-
 # Base image for Node.js
 FROM node:18
 
@@ -18,13 +16,12 @@ RUN cd backend && npm install
 COPY frontend ./frontend
 COPY backend ./backend
 
-# Build the frontend for production
+# Build the frontend for production (if needed)
 RUN cd frontend && npm run build
 
-# Expose the backend port
-EXPOSE 3000
+# Expose the backend and frontend ports
+EXPOSE 3001  
+EXPOSE 5173
 
-# Use concurrently to run both frontend and backend
-CMD ["npx", "concurrently", \
-     "\"node backend/server.js\"", \
-     "\"npm --prefix frontend run serve\""]
+# Start both frontend and backend using the npm script
+CMD ["npm", "--prefix", "frontend", "run", "start:all"]
