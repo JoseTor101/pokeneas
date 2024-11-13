@@ -20,8 +20,8 @@ COPY backend ./backend
 RUN cd frontend && npm run build
 
 # Expose the backend and frontend ports
-EXPOSE 3001  # Backend port
-EXPOSE 5173  # Frontend port
+EXPOSE 3001  
+EXPOSE 5173
 
 # Start both frontend and backend using the npm script
 CMD ["npm", "--prefix", "frontend", "run", "start:all"]
